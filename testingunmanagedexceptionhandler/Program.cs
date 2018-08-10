@@ -11,13 +11,14 @@ namespace testingunmanagedexceptionhandler
         /// Create a reference from unmanaged FailingApp.dll C++ code.
         /// </summary>
         /// <returns>Reference.</returns>        
-        [DllImport("..\\..\\FailingApp.dll")]
+        [DllImport("..\\..\\failinglibrary.dll")]
         private static extern int CreateReference();
         static void Main(string[] args)
         {
-            //ReferenceTest();
-            ReferenceTestWithHandler();
-            //Console.ReadKey();
+            Console.ReadKey();
+            ReferenceTest();
+            //ReferenceTestWithHandler();            
+            System.Threading.Thread.Sleep(36000);
         }
 
 

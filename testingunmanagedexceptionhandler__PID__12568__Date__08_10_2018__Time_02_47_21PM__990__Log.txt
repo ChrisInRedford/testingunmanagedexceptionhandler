@@ -1,0 +1,548 @@
+Loading control script C:\Program Files\DebugDiag\scripts\CrashRule_Process_testingunmanagedexceptionhandler.exe.vbs
+DumpPath set to C:\workspaces\testingunmanagedexceptionhandler
+[8/10/2018 2:47:22 PM]
+  Process created. BaseModule - C:\workspaces\testingunmanagedexceptionhandler\testingunmanagedexceptionhandler\bin\Release\testingunmanagedexceptionhandler.exe. BaseThread - System ID: 11320
+  C:\WINDOWS\SYSTEM32\ntdll.dll loaded at 0x76ea0000
+  Thread created. New thread - System ID: 15072
+  Thread created. New thread - System ID: 7532
+  Thread created. New thread - System ID: 6288
+  Thread created. New thread - System ID: 7136
+  Thread created. New thread - System ID: 15936
+  Thread created. New thread - System ID: 4712
+  Thread created. New thread - System ID: 412
+  Thread created. New thread - System ID: 16684
+  Thread created. New thread - System ID: 12728
+  Thread created. New thread - System ID: 13536
+  Thread created. New thread - System ID: 8888
+  Thread created. New thread - System ID: 11360
+  Thread created. New thread - System ID: 4532
+  Thread created. New thread - System ID: 17668
+  Thread created. New thread - System ID: 948
+  Thread created. New thread - System ID: 664
+  Thread created. New thread - System ID: 9092
+  C:\WINDOWS\SYSTEM32\MSCOREE.DLL loaded at 0x73900000
+  C:\WINDOWS\System32\KERNEL32.dll loaded at 0x74920000
+  C:\WINDOWS\System32\KERNELBASE.dll loaded at 0x74290000
+  C:\Program Files (x86)\dynatrace\oneagent\agent\lib\oneagentproc.dll loaded at 0x00d00000
+  C:\WINDOWS\System32\ADVAPI32.dll loaded at 0x746b0000
+  C:\WINDOWS\System32\msvcrt.dll loaded at 0x73990000
+  C:\WINDOWS\System32\sechost.dll loaded at 0x745c0000
+  C:\WINDOWS\System32\RPCRT4.dll loaded at 0x74860000
+  C:\WINDOWS\System32\SspiCli.dll loaded at 0x73970000
+  C:\WINDOWS\System32\CRYPTBASE.dll loaded at 0x73960000
+  C:\WINDOWS\System32\bcryptPrimitives.dll loaded at 0x76810000
+  C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscoreei.dll loaded at 0x736a0000
+  C:\WINDOWS\System32\SHLWAPI.dll loaded at 0x74d20000
+  C:\WINDOWS\System32\combase.dll loaded at 0x76c60000
+  C:\WINDOWS\System32\ucrtbase.dll loaded at 0x74bf0000
+  C:\WINDOWS\System32\GDI32.dll loaded at 0x74b80000
+  C:\WINDOWS\System32\gdi32full.dll loaded at 0x74dd0000
+  C:\WINDOWS\System32\msvcp_win.dll loaded at 0x747c0000
+  C:\WINDOWS\System32\USER32.dll loaded at 0x74a40000
+  C:\WINDOWS\System32\win32u.dll loaded at 0x74840000
+  C:\WINDOWS\System32\IMM32.DLL loaded at 0x74620000
+  C:\WINDOWS\System32\kernel.appcore.dll loaded at 0x73ed0000
+  C:\WINDOWS\SYSTEM32\VERSION.dll loaded at 0x73720000
+  C:\Windows\Microsoft.NET\Framework\v4.0.30319\clr.dll loaded at 0x72850000
+  C:\WINDOWS\SYSTEM32\MSVCR120_CLR0400.dll loaded at 0x72750000
+  C:\WINDOWS\System32\ole32.dll loaded at 0x73ef0000
+  C:\PROGRA~2\DYNATR~1\oneagent\agent\lib\oneagentloader.dll loaded at 0x02f30000
+  C:\WINDOWS\System32\WS2_32.dll loaded at 0x74220000
+  C:\WINDOWS\System32\WLDAP32.dll loaded at 0x74650000
+  C:\WINDOWS\System32\SHELL32.dll loaded at 0x754c0000
+  C:\WINDOWS\SYSTEM32\Secur32.dll loaded at 0x6c9e0000
+  C:\WINDOWS\System32\cfgmgr32.dll loaded at 0x74bb0000
+  C:\WINDOWS\System32\shcore.dll loaded at 0x74730000
+  C:\WINDOWS\System32\windows.storage.dll loaded at 0x74f30000
+  C:\WINDOWS\System32\powrprof.dll loaded at 0x749f0000
+  C:\WINDOWS\System32\profapi.dll loaded at 0x74d10000
+  C:\WINDOWS\System32\PSAPI.DLL loaded at 0x74610000
+  C:\WINDOWS\system32\napinsp.dll loaded at 0x70c50000
+  C:\WINDOWS\system32\pnrpnsp.dll loaded at 0x70c30000
+  C:\WINDOWS\system32\NLAapi.dll loaded at 0x70c10000
+  C:\WINDOWS\System32\mswsock.dll loaded at 0x70d10000
+  C:\WINDOWS\SYSTEM32\DNSAPI.dll loaded at 0x70b90000
+  C:\WINDOWS\System32\NSI.dll loaded at 0x74dc0000
+  C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL loaded at 0x72f60000
+  C:\WINDOWS\System32\winrnr.dll loaded at 0x70b80000
+  C:\WINDOWS\System32\wshbth.dll loaded at 0x70b70000
+  C:\PROGRA~2\DYNATR~1\oneagent\agent\lib\oneagentdotnet.dll loaded at 0x03420000
+  C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL loaded at 0x70b50000
+  C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL loaded at 0x70b30000
+  C:\Windows\System32\rasadhlp.dll loaded at 0x710c0000
+  C:\WINDOWS\System32\fwpuclnt.dll loaded at 0x70520000
+  C:\WINDOWS\SYSTEM32\bcrypt.dll loaded at 0x72fd0000
+  C:\WINDOWS\SYSTEM32\CRYPTSP.dll loaded at 0x71200000
+  C:\WINDOWS\system32\rsaenh.dll loaded at 0x71150000
+  C:\WINDOWS\system32\uxtheme.dll loaded at 0x6f940000
+  C:\Windows\Microsoft.NET\Framework\v4.0.30319\clrjit.dll loaded at 0x71180000
+  C:\WINDOWS\System32\OLEAUT32.dll loaded at 0x73ff0000
+  Thread created. New thread - System ID: 13648
+  Initializing control script
+  Clearing any existing breakpoints
+  
+  Current Breakpoint List(BL)
+[8/10/2018 2:47:24 PM]
+  Thread exited. Exiting thread - System ID: 13648. Exit code - 0x00000000
+[8/10/2018 2:47:26 PM]
+  log4net.dll loaded at 0x09950000
+  log4net.dll loaded at 0x099a0000
+  log4net.dll Unloaded from 0x09950000
+  System.Configuration.dll loaded at 0x099f0000
+  System.Configuration.dll loaded at 0x09a60000
+  System.Configuration.dll Unloaded from 0x099f0000
+  System.dll loaded at 0x0d360000
+  System.dll loaded at 0x0d6d0000
+  System.dll Unloaded from 0x0d360000
+  System.Xml.dll loaded at 0x0d360000
+  System.Xml.dll loaded at 0x0da40000
+  System.Xml.dll Unloaded from 0x0d360000
+  System.Core.dll loaded at 0x0d360000
+  System.Core.dll loaded at 0x0d4e0000
+  System.Core.dll Unloaded from 0x0d360000
+  Thread created. New thread - System ID: 6356
+[8/10/2018 2:47:28 PM]
+  Exception 0XE06D7363 on thread 13536. DetailID = 1
+[8/10/2018 2:47:34 PM]
+  Created dump file C:\workspaces\testingunmanagedexceptionhandler\testingunmanagedexceptionhandler__PID__12568__Date__08_10_2018__Time_02_47_28PM__431__First chance exception 0XE06D7363.dmp
+
+***********************
+*  EXCEPTION DETAILS  *
+***********************
+
+DetailID = 1
+	Count:    1
+	Exception #:  0XE06D7363
+	Stack:        
+
+
+
+
+
+***********************
+*  EXCEPTION SUMMARY  *
+***********************
+
+	|--------------------|
+	| Count | Exception  |
+	|--------------------|
+	| 1     | 0XE06D7363 |
+	|--------------------|
+
+Debugging Overhead Cost:
+	Total Elapsed Ticks = 12594 (100%)
+	Total Ticks Spent in Debugger Engine = 2735 (22%)
+	Total Ticks Spent in Crash Rule Script = 127 (1%)
+  Exception 0XE06D7363 on thread 13536. DetailID = 1
+[8/10/2018 2:47:40 PM]
+  Created dump file C:\workspaces\testingunmanagedexceptionhandler\testingunmanagedexceptionhandler__PID__12568__Date__08_10_2018__Time_02_47_34PM__574__First chance exception 0XE06D7363.dmp
+
+***********************
+*  EXCEPTION DETAILS  *
+***********************
+
+DetailID = 1
+	Count:    2
+	Exception #:  0XE06D7363
+	Stack:        
+
+
+
+
+
+***********************
+*  EXCEPTION SUMMARY  *
+***********************
+
+	|--------------------|
+	| Count | Exception  |
+	|--------------------|
+	| 2     | 0XE06D7363 |
+	|--------------------|
+
+Debugging Overhead Cost:
+	Total Elapsed Ticks = 18329 (100%)
+	Total Ticks Spent in Debugger Engine = 2735 (15%)
+	Total Ticks Spent in Crash Rule Script = 7924 (43%)
+[8/10/2018 2:47:41 PM]
+  System.String on thread 4532. DetailID = 2
+[8/10/2018 2:47:47 PM]
+  Created dump file C:\workspaces\testingunmanagedexceptionhandler\testingunmanagedexceptionhandler__PID__12568__Date__08_10_2018__Time_02_47_41PM__285__First chance exception 0XE0434352.dmp
+
+***********************
+*  EXCEPTION DETAILS  *
+***********************
+
+DetailID = 1
+	Count:    2
+	Exception #:  0XE06D7363
+	Stack:        
+
+
+DetailID = 2
+	Count:    1
+	Type:     System.String
+	Message:  NOT_FOUND
+		Type:     NOT_FOUND
+		Message:  NOT_FOUND
+	Stack:    
+		[HelperMethodFrame]
+		mscorlib.dll!Unknown
+		mscorlib.dll!Unknown
+		mscorlib.dll!Unknown
+		[InlinedCallFrame]
+		mscorlib.dll!Unknown
+
+
+
+
+
+***********************
+*  EXCEPTION SUMMARY  *
+***********************
+
+	|-----------------------|
+	| Count | Exception     |
+	|-----------------------|
+	| 2     | 0XE06D7363    |
+	| 1     | System.String |
+	|-----------------------|
+
+Debugging Overhead Cost:
+	Total Elapsed Ticks = 25297 (100%)
+	Total Ticks Spent in Debugger Engine = 2735 (11%)
+	Total Ticks Spent in Crash Rule Script = 13659 (54%)
+[8/10/2018 2:47:48 PM]
+  Exception 0XE06D7363 on thread 17668. DetailID = 1
+[8/10/2018 2:47:53 PM]
+  Created dump file C:\workspaces\testingunmanagedexceptionhandler\testingunmanagedexceptionhandler__PID__12568__Date__08_10_2018__Time_02_47_48PM__104__First chance exception 0XE06D7363.dmp
+
+***********************
+*  EXCEPTION DETAILS  *
+***********************
+
+DetailID = 1
+	Count:    3
+	Exception #:  0XE06D7363
+	Stack:        
+
+
+DetailID = 2
+	Count:    1
+	Type:     System.String
+	Message:  NOT_FOUND
+		Type:     NOT_FOUND
+		Message:  NOT_FOUND
+	Stack:    
+		[HelperMethodFrame]
+		mscorlib.dll!Unknown
+		mscorlib.dll!Unknown
+		mscorlib.dll!Unknown
+		[InlinedCallFrame]
+		mscorlib.dll!Unknown
+
+
+
+
+
+***********************
+*  EXCEPTION SUMMARY  *
+***********************
+
+	|-----------------------|
+	| Count | Exception     |
+	|-----------------------|
+	| 3     | 0XE06D7363    |
+	| 1     | System.String |
+	|-----------------------|
+
+Debugging Overhead Cost:
+	Total Elapsed Ticks = 31954 (100%)
+	Total Ticks Spent in Debugger Engine = 2735 (9%)
+	Total Ticks Spent in Crash Rule Script = 20627 (65%)
+  Exception 0XE06D7363 on thread 13536. DetailID = 1
+[8/10/2018 2:47:59 PM]
+  Created dump file C:\workspaces\testingunmanagedexceptionhandler\testingunmanagedexceptionhandler__PID__12568__Date__08_10_2018__Time_02_47_53PM__932__First chance exception 0XE06D7363.dmp
+
+***********************
+*  EXCEPTION DETAILS  *
+***********************
+
+DetailID = 1
+	Count:    4
+	Exception #:  0XE06D7363
+	Stack:        
+
+
+DetailID = 2
+	Count:    1
+	Type:     System.String
+	Message:  NOT_FOUND
+		Type:     NOT_FOUND
+		Message:  NOT_FOUND
+	Stack:    
+		[HelperMethodFrame]
+		mscorlib.dll!Unknown
+		mscorlib.dll!Unknown
+		mscorlib.dll!Unknown
+		[InlinedCallFrame]
+		mscorlib.dll!Unknown
+
+
+
+
+
+***********************
+*  EXCEPTION SUMMARY  *
+***********************
+
+	|-----------------------|
+	| Count | Exception     |
+	|-----------------------|
+	| 4     | 0XE06D7363    |
+	| 1     | System.String |
+	|-----------------------|
+
+Debugging Overhead Cost:
+	Total Elapsed Ticks = 37829 (100%)
+	Total Ticks Spent in Debugger Engine = 2735 (7%)
+	Total Ticks Spent in Crash Rule Script = 27284 (72%)
+  Exception 0XE06D7363 on thread 13536. DetailID = 1
+[8/10/2018 2:48:05 PM]
+  Created dump file C:\workspaces\testingunmanagedexceptionhandler\testingunmanagedexceptionhandler__PID__12568__Date__08_10_2018__Time_02_47_59PM__799__First chance exception 0XE06D7363.dmp
+
+***********************
+*  EXCEPTION DETAILS  *
+***********************
+
+DetailID = 1
+	Count:    5
+	Exception #:  0XE06D7363
+	Stack:        
+
+
+DetailID = 2
+	Count:    1
+	Type:     System.String
+	Message:  NOT_FOUND
+		Type:     NOT_FOUND
+		Message:  NOT_FOUND
+	Stack:    
+		[HelperMethodFrame]
+		mscorlib.dll!Unknown
+		mscorlib.dll!Unknown
+		mscorlib.dll!Unknown
+		[InlinedCallFrame]
+		mscorlib.dll!Unknown
+
+
+
+
+
+***********************
+*  EXCEPTION SUMMARY  *
+***********************
+
+	|-----------------------|
+	| Count | Exception     |
+	|-----------------------|
+	| 5     | 0XE06D7363    |
+	| 1     | System.String |
+	|-----------------------|
+
+Debugging Overhead Cost:
+	Total Elapsed Ticks = 43563 (100%)
+	Total Ticks Spent in Debugger Engine = 2735 (6%)
+	Total Ticks Spent in Crash Rule Script = 33159 (76%)
+  C:\workspaces\testingunmanagedexceptionhandler\testingunmanagedexceptionhandler\failinglibrary.dll loaded at 0x689d0000
+  C:\WINDOWS\SysWOW64\VCRUNTIME140.dll loaded at 0x730b0000
+[8/10/2018 2:48:08 PM]
+  Exception 0XC0000005 on thread 11320. DetailID = 3
+[8/10/2018 2:48:13 PM]
+  Created dump file C:\workspaces\testingunmanagedexceptionhandler\testingunmanagedexceptionhandler__PID__12568__Date__08_10_2018__Time_02_48_08PM__180__First chance exception 0XC0000005.dmp
+
+***********************
+*  EXCEPTION DETAILS  *
+***********************
+
+DetailID = 1
+	Count:    5
+	Exception #:  0XE06D7363
+	Stack:        
+
+
+DetailID = 2
+	Count:    1
+	Type:     System.String
+	Message:  NOT_FOUND
+		Type:     NOT_FOUND
+		Message:  NOT_FOUND
+	Stack:    
+		[HelperMethodFrame]
+		mscorlib.dll!Unknown
+		mscorlib.dll!Unknown
+		mscorlib.dll!Unknown
+		[InlinedCallFrame]
+		mscorlib.dll!Unknown
+
+
+DetailID = 3
+	Count:    1
+	Exception #:  0XC0000005
+	Stack:        
+
+
+
+
+
+***********************
+*  EXCEPTION SUMMARY  *
+***********************
+
+	|-----------------------|
+	| Count | Exception     |
+	|-----------------------|
+	| 5     | 0XE06D7363    |
+	| 1     | System.String |
+	| 1     | 0XC0000005    |
+	|-----------------------|
+
+Debugging Overhead Cost:
+	Total Elapsed Ticks = 51969 (100%)
+	Total Ticks Spent in Debugger Engine = 2735 (5%)
+	Total Ticks Spent in Crash Rule Script = 38893 (75%)
+  System.String on thread 4532. DetailID = 4
+[8/10/2018 2:48:21 PM]
+  Created dump file C:\workspaces\testingunmanagedexceptionhandler\testingunmanagedexceptionhandler__PID__12568__Date__08_10_2018__Time_02_48_13PM__942__First chance exception 0XE0434352.dmp
+
+***********************
+*  EXCEPTION DETAILS  *
+***********************
+
+DetailID = 1
+	Count:    5
+	Exception #:  0XE06D7363
+	Stack:        
+
+
+DetailID = 2
+	Count:    1
+	Type:     System.String
+	Message:  NOT_FOUND
+		Type:     NOT_FOUND
+		Message:  NOT_FOUND
+	Stack:    
+		[HelperMethodFrame]
+		mscorlib.dll!Unknown
+		mscorlib.dll!Unknown
+		mscorlib.dll!Unknown
+		[InlinedCallFrame]
+		mscorlib.dll!Unknown
+
+
+DetailID = 3
+	Count:    1
+	Exception #:  0XC0000005
+	Stack:        
+
+
+DetailID = 4
+	Count:    1
+	Type:     System.String
+	Message:  NOT_FOUND
+		Type:     NOT_FOUND
+		Message:  NOT_FOUND
+	Stack:    
+		[HelperMethodFrame]
+		mscorlib.dll!Unknown
+		mscorlib.dll!Unknown
+		mscorlib.dll!Unknown
+
+
+
+
+
+***********************
+*  EXCEPTION SUMMARY  *
+***********************
+
+	|-----------------------|
+	| Count | Exception     |
+	|-----------------------|
+	| 5     | 0XE06D7363    |
+	| 2     | System.String |
+	| 1     | 0XC0000005    |
+	|-----------------------|
+
+Debugging Overhead Cost:
+	Total Elapsed Ticks = 59094 (100%)
+	Total Ticks Spent in Debugger Engine = 2735 (5%)
+	Total Ticks Spent in Crash Rule Script = 47283 (80%)
+Request to detach recieved. Attempting detach...
+  Debugger is detaching
+
+***********************
+*  EXCEPTION DETAILS  *
+***********************
+
+DetailID = 1
+	Count:    5
+	Exception #:  0XE06D7363
+	Stack:        
+
+
+DetailID = 2
+	Count:    1
+	Type:     System.String
+	Message:  NOT_FOUND
+		Type:     NOT_FOUND
+		Message:  NOT_FOUND
+	Stack:    
+		[HelperMethodFrame]
+		mscorlib.dll!Unknown
+		mscorlib.dll!Unknown
+		mscorlib.dll!Unknown
+		[InlinedCallFrame]
+		mscorlib.dll!Unknown
+
+
+DetailID = 3
+	Count:    1
+	Exception #:  0XC0000005
+	Stack:        
+
+
+DetailID = 4
+	Count:    1
+	Type:     System.String
+	Message:  NOT_FOUND
+		Type:     NOT_FOUND
+		Message:  NOT_FOUND
+	Stack:    
+		[HelperMethodFrame]
+		mscorlib.dll!Unknown
+		mscorlib.dll!Unknown
+		mscorlib.dll!Unknown
+
+
+
+
+
+***********************
+*  EXCEPTION SUMMARY  *
+***********************
+
+	|-----------------------|
+	| Count | Exception     |
+	|-----------------------|
+	| 5     | 0XE06D7363    |
+	| 2     | System.String |
+	| 1     | 0XC0000005    |
+	|-----------------------|
+
+Debugging Overhead Cost:
+	Total Elapsed Ticks = 59188 (100%)
+	Total Ticks Spent in Debugger Engine = 2735 (5%)
+	Total Ticks Spent in Crash Rule Script = 54408 (92%)
+Successfully detached from process. The target process is no longer being debugged.
+This instance of Dbghost will shutdown in a few seconds.
