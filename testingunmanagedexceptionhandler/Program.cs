@@ -11,13 +11,13 @@ namespace testingunmanagedexceptionhandler
         /// Create a reference from unmanaged FailingApp.dll C++ code.
         /// </summary>
         /// <returns>Reference.</returns>        
-        [DllImport("..\\..\\..\\Release\\failinglibrary.dll")]
+        [DllImport("..\\..\\FailingApp.dll")]
         private static extern int CreateReference();
-
         static void Main(string[] args)
         {
-            ReferenceTest();
+            //ReferenceTest();
             ReferenceTestWithHandler();
+            //Console.ReadKey();
         }
 
 
@@ -31,7 +31,6 @@ namespace testingunmanagedexceptionhandler
         /// Test reference creation through unmanaged code.
         /// </summary>
         /// <returns>Reference result.</returns>
-        [HandleProcessCorruptedStateExceptions]
         public static int ReferenceTest()
         {
             try
@@ -46,16 +45,16 @@ namespace testingunmanagedexceptionhandler
             catch (System.AccessViolationException exception)
             {
                 // Output explicit exception.
-                Logging.Fatal(exception.ToString());
+                Logging.Fatal(exception);
             }
             catch (BadImageFormatException exception)
             {
-                Logging.Fatal(exception.ToString());
+                Logging.Fatal(exception);
             }
             catch (Exception exception)
             {
                 // Output inexplicit exception.
-                Logging.Fatal(exception.ToString());
+                Logging.Fatal(exception);
             }
             // Return zero to indicate failure.
             return 0;
@@ -76,8 +75,10 @@ namespace testingunmanagedexceptionhandler
                 var result = CreateReference();
                 // If no exception occurred, output successful result.
                 Logging.Info($"Reference successfully created at: {result}.");
-                // Return result.
                 return result;
+                //var addressIs = PleaseDoNotFailOnMe();
+                //Logging.Info($"I made a reference. It's at: {addressIs} address");
+                //return addressIs;
             }
             catch (System.AccessViolationException exception)
             {
