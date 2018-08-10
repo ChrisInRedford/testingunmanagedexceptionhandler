@@ -3,7 +3,6 @@ using System.Runtime.ExceptionServices;
 using System.Runtime.InteropServices;
 using log4net;
 
-
 namespace testingunmanagedexceptionhandler
 {
     class Program
