@@ -16,9 +16,13 @@ namespace testingunmanagedexceptionhandler
         static void Main(string[] args)
         {
             Console.ReadKey();
-            ReferenceTest();
-            //ReferenceTestWithHandler();            
-            System.Threading.Thread.Sleep(36000);
+            for (int t = 0; t <= 1; t++)
+            {
+                Logging.Info("Starting with handler:");
+                ReferenceTestWithHandler();
+                Logging.Info("Staring WITHOUT handler:");
+                ReferenceTest();                            
+            }
         }
 
 
